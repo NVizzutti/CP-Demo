@@ -20,10 +20,35 @@ h3 {
 
 ul {
   margin-bottom: 5px;
+  list-style: none;
+}
+
+.images-div {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#list-one {
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 20px;
+}
+
+#list-one > li {
+  padding: 5px;
+  margin: 10px;
+  background: #411a7a;
+  border-radius: 5px;
 }
 
 .screenshot {
-  margin: 5px;
+  margin: 10px;
 }
 
 .intro-list {
@@ -35,6 +60,7 @@ ul {
   text-align: center;
   font-size: 25px;
 }
+
 
 li {
   padding: 5px;
@@ -73,4 +99,8 @@ li {
 .section.section.one {
   color: #f5f5f5;
   background-color: #09062d;
+}
+
+.section.section.two {
+  background-color: #811c88;
 }
