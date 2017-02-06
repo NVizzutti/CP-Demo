@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Karma', serif;
+}
+
+ul {
+  width: 100%;
+  padding: 10px;
+  color: #9c1156;
+  background-color: rgb(255, 210, 241);
+  list-style: none;
+  text-align: center;
+  font-size: 25px;
+}
+
+li {
+  padding: 5px;
+}
+
+.section {
+  font-family: "Happy Monkey", cursive;
+  color: #ffdcfe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section p {
+  font-size: 20px;
+}
+
+#logo {
+  width: 300px;
+  height: 300px;
+  padding: 23px;
+  background-color: rgba(169, 35, 151, 0.74);
+  border-radius: 44px;
+}
+
+.screenshot {
+  height: 400px;
+  width: auto;
+}
+
+.section.section.intro {
+  background-color: #4e0c45;
+}
