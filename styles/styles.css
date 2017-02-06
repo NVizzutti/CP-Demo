@@ -2,6 +2,10 @@ body {
   padding: 0;
   margin: 0;
 }
+ a {
+   text-decoration: none;
+   color: inherit;
+ }
 
 h2 {
   font-size: 30px;
@@ -121,6 +125,10 @@ li {
   text-align: center;
 }
 
+.section.section.three {
+  background-color: #046b6b;
+}
+
 .image-text {
   display: flex;
   flex-direction: column-reverse;
@@ -130,7 +138,18 @@ li {
 }
 
 .images-div p {
-  margin-bottom: 5px;
-  margin-left: auto;
-  margin-right: auto;
+  border-radius: 5px;
+  padding: 10px;
+  width: 80%;
+  text-align: center;
+}
+
+p.link {
+  background-color: #09053e;
+  width: 100px;
+}
+
+.link:hover {
+  cursor: pointer;
+  background-color: black;
 }
