@@ -13,7 +13,20 @@ h3 {
   font-family: 'Karma', serif;
 }
 
+#subtitle {
+  margin: 0;
+  font-size: 20px;
+}
+
 ul {
+  margin-bottom: 5px;
+}
+
+.screenshot {
+  margin: 5px;
+}
+
+.intro-list {
   border-radius: 15px;
   padding: 10px;
   color: #9c1156;
