@@ -42,9 +42,15 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
+	
+	var _jqueryScrollify = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./node_modules/jquery-scrollify/jquery-scrollify.js\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	
+	var _jqueryScrollify2 = _interopRequireDefault(_jqueryScrollify);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	$(function () {
 	  $(".section").css({ "height": $(window).height() });
@@ -62,6 +68,7 @@
 	    afterResize: function afterResize() {},
 	    afterRender: function afterRender() {}
 	  });
+	  console.log($.scrollify.stop);
 	});
 
 /***/ }

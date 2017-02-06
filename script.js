@@ -1,3 +1,5 @@
+import Scrollify from './node_modules/jquery-scrollify/jquery-scrollify.js';
+
 $(function(){
     $(".section").css({"height":$(window).height()});
     $.scrollify({
@@ -14,4 +16,5 @@ $(function(){
       afterResize:function() {},
       afterRender:function() {}
     });
+    console.log($.scrollify.stop)
 });
