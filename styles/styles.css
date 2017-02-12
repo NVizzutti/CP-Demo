@@ -127,20 +127,20 @@ li {
 
 .section.section.one {
   color: #f5f5f5;
-  background:
-    linear-gradient(rgba(148, 31, 131, 0.42),rgba(65, 5, 80, 0.9)),
-    url(bluebg.jpg);
+  background: url(bluebg.jpg);
+  background-size: cover;
 
 }
 
 .section.section.two {
   /*background-color: #811c88;*/
   background:
-    linear-gradient(rgba(148, 31, 131, 0.42),rgb(66, 0, 61));
+  linear-gradient(rgba(0, 0, 0, 0.82),rgba(0, 0, 0, 0)), url(cooking.jpeg);
+  background-size: cover;
 }
 .section.section.two h3 {
   margin-bottom: 0px;
-  color: rgb(115, 24, 113);
+  color: white;
 }
 
 .section.section.two p {
