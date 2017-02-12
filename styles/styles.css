@@ -122,14 +122,14 @@ li {
 }
 
 .section.section.intro {
-  background-image: url(CheffyPix-Demo/demo_assets/foodbg.jpg);
+  background-image: url(foodbg.png);
 }
 
 .section.section.one {
   color: #f5f5f5;
   background:
     linear-gradient(rgba(148, 31, 131, 0.42),rgba(65, 5, 80, 0.9)),
-    url(CheffyPix-Demo/demo_assets/bluebg.jpg);
+    url(bluebg.png);
 
 }
 
