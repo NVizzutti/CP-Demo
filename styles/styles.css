@@ -9,12 +9,12 @@ body {
 
 h2 {
   font-size: 30px;
-  font-family: 'Karma', serif;
+  font-family: "Happy Monkey", cursive;
 }
 
 h3 {
   font-size: 30px;
-  font-family: 'Karma', serif;
+  font-family: "Happy Monkey", cursive;
 }
 
 #subtitle {
@@ -45,27 +45,40 @@ ul {
 #list-one {
   padding: 0;
   display: inline-block;
+  background: #411a7a;
   text-align: center;
   margin-top: auto;
+  border-radius: 5px;
   margin-bottom: auto;
+  margin-left: 2%;
+  margin-right: 2%;
   font-size: 20px;
 }
 
 #list-one > li {
   padding: 8px;
   margin: 15px;
-  background: #411a7a;
   border-radius: 5px;
 }
 
 .intro-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  height: auto;
+  max-height: 30%;
   border-radius: 15px;
   padding: 10px;
   color: #9c1156;
   background-color: rgb(255, 210, 241);
   list-style: none;
   text-align: center;
-  font-size: 25px;
+  font-size: 1.5vw;
+}
+
+.intro-list li {
+  width: 30%;
 }
 
 
@@ -88,15 +101,15 @@ li {
 }
 
 #logo {
-  width: 300px;
-  height: 300px;
+  width: auto;
+  height: 30%;
   padding: 23px;
   background-color: rgba(169, 35, 151, 0.74);
-  border-radius: 44px;
+  border-radius: 30px;
 }
 
 .screenshot {
-  margin: 10px;
+  margin: auto;
   height: 360px;
   width: 210px;
 }
@@ -152,4 +165,18 @@ p.link {
 .link:hover {
   cursor: pointer;
   background-color: black;
+}
+
+.fa-arrow-down:before {
+  cursor: pointer;
+  font-size: 6vw;
+}
+
+.fa-arrow-down:hover {
+  color: rgb(167, 89, 157);
+}
+
+#google {
+  width: 140px;
+  height: auto;
 }

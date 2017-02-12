@@ -1,4 +1,3 @@
-import Scrollify from './node_modules/jquery-scrollify/jquery-scrollify.js';
 
 $(function(){
     $(".section").css({"height":$(window).height()});
@@ -16,5 +15,12 @@ $(function(){
       afterResize:function() {},
       afterRender:function() {}
     });
-    console.log($.scrollify.stop)
+});
+
+$("i").click(() => {
+  console.log('inside');
+  var up = jQuery.Event('keydown');
+  up.which = 40;
+  up.keyCode = 40;
+  $(document).trigger(up);
 });
