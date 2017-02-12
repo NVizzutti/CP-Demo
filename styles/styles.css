@@ -180,3 +180,7 @@ p.link {
   width: 140px;
   height: auto;
 }
+
+#main-repo:hover {
+  color: midnightblue;
+}
