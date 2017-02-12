@@ -122,14 +122,14 @@ li {
 }
 
 .section.section.intro {
-  background-image: url(foodbg.png);
+  background-image: url(foodbg.jpg);
 }
 
 .section.section.one {
   color: #f5f5f5;
   background:
     linear-gradient(rgba(148, 31, 131, 0.42),rgba(65, 5, 80, 0.9)),
-    url(bluebg.png);
+    url(bluebg.jpg);
 
 }
 
