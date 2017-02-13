@@ -113,8 +113,8 @@ li {
 
 .screenshot {
   margin: auto;
-  height: 360px;
-  width: 210px;
+  height: auto;
+  width: 20%;
 }
 
 .section h3 {
@@ -155,6 +155,8 @@ li {
 }
 
 .screenshot.border {
+  height: 360px;
+  width: 210px;
   border: 13px solid #381439;
   border-radius: 5px;
   box-sizing: border-box;
